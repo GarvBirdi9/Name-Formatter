@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.search-container{
+  margin-bottom: 20px;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-container{
+  margin-bottom: 20px;
+}
